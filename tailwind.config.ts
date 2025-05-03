@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+        dashboard: {
+          background: '#1A1D21',
+          foreground: '#D0D0D0',
+          chartBlue: '#636EFA',
+          chartOrange: '#FFA15A',
+          chartGreen: '#00CC96',
+          chartPurple: '#AB63FA',
+        }
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

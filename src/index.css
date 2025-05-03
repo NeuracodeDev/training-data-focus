@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -98,4 +99,21 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.recharts-cartesian-axis-tick-value {
+  fill: #D0D0D0;
+  font-size: 12px;
+}
+
+.recharts-legend-item-text {
+  color: #D0D0D0 !important;
+  font-size: 12px;
+}
+
+.recharts-default-tooltip {
+  background-color: rgba(40, 44, 52, 0.9) !important;
+  border: 1px solid #444 !important;
+  border-radius: 4px;
+  padding: 8px 12px !important;
 }
